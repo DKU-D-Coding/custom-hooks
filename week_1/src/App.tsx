@@ -3,6 +3,7 @@ import ClassComponent from "./components/ClassComponent";
 import FunctionComponent from "./components/FunctionComponent";
 import LexicalScoping from "./closure/LexicalScoping";
 import Closure from "./closure/Closure";
+import Foo from "./closure/Foo";
 
 function App() {
    return (
@@ -11,6 +12,7 @@ function App() {
          <FunctionComponent />
          <LexicalScoping />
          <Closure />
+         <Foo />
       </div>
    );
 }
