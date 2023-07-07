@@ -2,6 +2,7 @@ import React from "react";
 import ClassComponent from "./components/ClassComponent";
 import FunctionComponent from "./components/FunctionComponent";
 import LexicalScoping from "./closure/LexicalScoping";
+import Closure from "./closure/Closure";
 
 function App() {
    return (
@@ -9,6 +10,7 @@ function App() {
          <ClassComponent />
          <FunctionComponent />
          <LexicalScoping />
+         <Closure />
       </div>
    );
 }
